@@ -1,11 +1,19 @@
-// إعداد Firebase
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
 const firebaseConfig = {
   apiKey: "AIzaSyBwUPjfjjjfRneRk6plUB3CV9U6K4eTZ1w",
   authDomain: "my-pigeons-a5a09.firebaseapp.com",
   projectId: "my-pigeons-a5a09",
-  storageBucket: "my-pigeons-a5a09.appspot.com",
+  storageBucket: "my-pigeons-a5a09.firebasestorage.app",
   messagingSenderId: "390860839141",
-  appId: "1:390860839141:web:e8bed527f8fb9e6a745c0c"
+  appId: "1:390860839141:web:e8bed527f8fb9e6a745c0c",
+  measurementId: "G-YD0DVFY9BS"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 };
 
 firebase.initializeApp(firebaseConfig);

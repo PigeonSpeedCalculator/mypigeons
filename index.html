@@ -1,12 +1,13 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>تسجيل الحمام</title>
-  <script defer src="app.js"></script>
+  <script type="module" src="app.js"></script>
   <style>
-    body { font-family: sans-serif; padding: 20px; }
+    body { font-family: sans-serif; padding: 20px; direction: rtl; }
     input, button, select { margin: 5px 0; padding: 8px; width: 100%; }
     .hidden { display: none; }
   </style>
@@ -27,13 +28,8 @@
 
     <button id="saveBtn">حفظ</button>
 
-    <h3>🐦 حمامي المسجل:</h3>
+    <h3>🐦 الحمام المسجل:</h3>
     <ul id="myBirds"></ul>
   </div>
-
-  <!-- Firebase SDKs -->
-  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"></script>
 </body>
 </html>

@@ -1,11 +1,11 @@
 // إعداد Firebase
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBwUPjfjjjfRneRk6plUB3CV9U6K4eTZ1w",
+  authDomain: "my-pigeons-a5a09.firebaseapp.com",
+  projectId: "my-pigeons-a5a09",
+  storageBucket: "my-pigeons-a5a09.appspot.com",
+  messagingSenderId: "390860839141",
+  appId: "1:390860839141:web:e8bed527f8fb9e6a745c0c"
 };
 
 firebase.initializeApp(firebaseConfig);
